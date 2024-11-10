@@ -1,5 +1,5 @@
 baseURL: https://example.docsy.dev
-title: Goldydocs
+title: Tehnical Margins
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir: false
 # Useful when translating.
 enableMissingTranslationPlaceholders: true
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 # Will give values to .Lastmod etc.
 enableGitInfo: true
@@ -46,25 +46,24 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: "Technical Margins"
     params:
-      description: A Docsy example site
+      description:   Technical Margins is a space for exploring the overlooked edges of technical writing. For technical writers and curious minds, this blog dives into the hidden layers of documentation, random reflections, and the art of sharing diverse information.
   # cSpell:disable
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    title: Gulldoks
+  fr:
+    languageName: Français
+    contentDir: content/fr
+    title: "Technical Margins"
     params:
-      description: Docsy er operativsystem for skyen
+      description:   Technical Margins est un espace d'exploration des marges de la rédaction technique. Destiné aux rédacteurs techniques et aux esprits curieux, ce blog arpente les couches dérobées de la documentation, des réflexions aléatoires et l'art de partager des informations variées.
       time_format_default: 02.01.2006
       time_format_blog: 02.01.2006
-  fa:
-    languageDirection: rtl
-    languageName: "فارسی (Persian)"
-    contentDir: content/fa
-    title: "اسناد گلدی"
+  zh:
+    languageName: "中文"
+    contentDir: content/zh
+    title: "Technical Margins"
     params:
-      description: "یک نمونه برای پوسته داکسی"
+      description:   Technical Margins 是一個探索技術寫作邊緣的空間。針對技術寫作者和好奇的讀者，這個部落格深入文件的隱藏層面、隨機思考，以及傳遞多元資訊的藝術。
       time_format_default: 2006.01.02
       time_format_blog: 2006.01.02
   # cSpell:enable
@@ -78,15 +77,15 @@ markup:
       unsafe: true
   highlight:
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
-    style: tango
+    style: catppuccin-macchiato
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax: true
 
 # Everything below this are Site Params
 
 # Comment out if you don't want the "print entire section" link enabled.
-outputs:
-  section: [HTML, print, RSS]
+# outputs:
+#  section: [HTML, print, RSS]
 
 params:
   taxonomy:
@@ -120,20 +119,20 @@ params:
 
   # A link to latest version of the docs. Used in the "version-banner" partial to
   # point people to the main doc site.
-  url_latest_version: https://example.com
+  # url_latest_version: https://example.com
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/google/docsy-example
+  # github_repo: https://github.com/li-lon/hugo-margins
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/google/docsy
+  # github_project_repo: https://github.com/google/docsy
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
 
   # Uncomment this if your GitHub repo does not have "main" as the default branch,
   # or specify a new value if you want to reference another branch in your GitHub links
-  github_branch: main
+  # github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
   gcs_engine_id: d72aa9b2712488cc3
@@ -145,8 +144,8 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2018
+    authors: Li-Lon |
+    from_year: 2024
 
   # User interface configuration
   ui:
@@ -157,7 +156,7 @@ params:
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
     navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.
-    sidebar_menu_compact: false
+    sidebar_menu_compact: true
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
     sidebar_search_disable: false
 
@@ -169,9 +168,9 @@ params:
       enable: true
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
-        Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
+        Glad to hear it! Please <a href="https://github.com/li-lon/hugo-margins/issues/new">tell us how we can improve</a>.
       'no': >-
-        Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
+        Sorry to hear that. Please <a href="https://github.com/li-lon/hugo-margins/issues/new">tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -183,31 +182,15 @@ params:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
       - name: User mailing list
-        url: https://example.org/mail
+        url: mailto:no-address@live.com
         icon: fa fa-envelope
         desc: Discussion and help from your fellow users
-      - name: Twitter
-        url: https://example.org/twitter
-        icon: fab fa-twitter
-        desc: Follow us on Twitter to get the latest news!
-      - name: Stack Overflow
-        url: https://example.org/stack
-        icon: fab fa-stack-overflow
-        desc: Practical questions and curated answers
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: https://github.com/li-lon/
         icon: fab fa-github
         desc: Development takes place here!
-      - name: Slack
-        url: https://example.org/slack
-        icon: fab fa-slack
-        desc: Chat with other project developers
-      - name: Developer mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:

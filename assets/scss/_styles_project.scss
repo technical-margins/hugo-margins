@@ -1,0 +1,41 @@
+.alert {
+    background-color: lighten($info, 45%) !important;     // Custom background color
+    border: 1px solid $info !important;                   // Custom border color
+    color: darken($body-color, 10%) !important;           // Custom text color
+    border-radius: 8px !important;                        // Rounded corners
+    padding: 1rem !important;                             // Custom padding
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);             // Optional: subtle shadow
+}
+
+.alert pre {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    overflow: hidden !important;
+}
+
+/* Optional: Specific styles for alert types */
+.alert-warning {
+    background-color: lighten($warning, 45%) !important;
+    border-color: $warning !important;
+    color: darken($warning, 15%) !important;
+}
+
+.alert-info {
+    background-color: lighten($info, 45%) !important;
+    border-color: $info !important;
+    color: darken($info, 15%) !important;
+}
+
+.nav-item {
+    font-family: 'Noto Serif' !important;
+}
+.h1 {
+    font-family: 'Noto Serif' !important;
+}
+.h2 {
+    font-family: 'Noto Serif' !important;
+}
+.h3 {
+    font-family: 'Noto Serif' !important;
+}
