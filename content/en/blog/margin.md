@@ -8,8 +8,6 @@ categories:
   - Margins  
 ---
 
-# Technical Margins: Exploring Forgotten Spaces
-
 Why *Technical Margins*? Why not, one might say. This title felt natural. It's there, in the margin, that life slips in. When I think back to my school years, even through university, I see my notebooks, my loose sheets, marked with small sketches, scrawled along the edges, just outside the main content. Far from empty, these margins were lively spaces, uncultivated patches where ideas roamed freely, thoughts that spilled out, uninvited, from the official structure of lessons. For me, doodling in the margins was a way of listening, of musing – a way to let my thoughts wander and explore.
 
 This connection between the margin and creative freedom follows me now in my work as a technical writer. Documentation, a bit like those sketches of yore, often lives in the margin of the product. It's there when needed, off centre stage, sitting quietly in the background, ready to enrich the user experience. And although labelled as "technical", it retains within it a small margin of freedom, a secret corner where, despite everything, a hint of creativity sneaks in.

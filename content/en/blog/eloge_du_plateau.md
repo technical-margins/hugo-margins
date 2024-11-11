@@ -9,8 +9,6 @@ categories:
   - Random Thoughts  
 ---
 
-# Musical Interlude: In Praise of the Plateau
-
 ## Music Away from the Spotlight 🎸
 
 *"You've been playing guitar for ages; you must be a virtuoso by now! Play us something?"* How many times have I heard these words, laden with expectations? In a society that's hungry for performance, music seems bound by a double standard: technical excellence and spectacle. In French, "performance" resonates with reaching a high standard, whereas in English, it gravitates towards the stage and the show. And here I am, caught between these two interpretations – perhaps fittingly, as it seems we expect musicians, even amateurs, to be flawlessly skilled and always ready to perform.

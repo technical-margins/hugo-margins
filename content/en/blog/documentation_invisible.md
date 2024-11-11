@@ -7,8 +7,6 @@ categories:
   - TechWriting
 ---
 
-# User Documentation: Making the Invisible Visible
-
 ## At the Heart of User Experience
 
 Imagine unboxing your new, state-of-the-art air fryer, ready to revolutionise your Sunday chips, only to find... no instructions to guide you. Frustrating, isn't it? And yet, in the software industry, this situation remains strangely common – and often accepted. This paradox raises a key question: why is something unthinkable for a household appliance considered acceptable in professional software, which is often much more complex?

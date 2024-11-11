@@ -9,8 +9,6 @@ categories:
   - Pensées en vrac
 ---
 
-# Aparté musical : éloge du plateau
-
 ## La musique à l'abri des projecteurs 🎸
 
 *"Tu joues de la guitare depuis si longtemps, tu dois être une virtuose maintenant ! Tu nous joues un morceau ?"* Combien de fois ai-je entendu ces mots, teintés d'attente ? Dans notre société avide de performance, la musique semble enchaînée par un double impératif : celui de l'excellence technique et celui du spectacle. En français, "performance" résonne comme le haut niveau à atteindre, tandis qu'en anglais, le mot gravite du côté de la scène, du show. Et me voilà, coincée entre ces deux langues, à mêler ces significations – peut-être à juste titre, car il semble qu'on attende du musicien, même amateur, une maîtrise irréprochable et qu'il se donne en spectacle.

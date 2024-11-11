@@ -7,8 +7,6 @@ categories:
   - RédactTech
 ---
 
-# La documentation utilisateur : l'invisible qui rend visible
-
 ## Au cœur de l'expérience utilisateur
 
 Imaginez-vous déballant votre nouvelle friteuse électrique, prête à révolutionner vos frites du dimanche, pour découvrir... qu'aucune notice n'est là pour vous guider. Frustrant, n'est-ce pas ? Et pourtant, dans l'industrie logicielle, cette situation demeure étrangement fréquente – et souvent acceptée. Ce paradoxe soulève une question essentielle : pourquoi ce qui serait inconcevable pour un appareil ménager devient-il acceptable pour un logiciel professionnel, souvent beaucoup plus complexe ?

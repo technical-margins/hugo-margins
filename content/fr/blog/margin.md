@@ -8,8 +8,6 @@ categories:
   - Marges 
 ---
 
-# Marges techniques : une exploration de l'espace oublié
-
 Pourquoi *Technical Margins* (Marges techniques) ? Pourquoi pas, pourrait-on dire. C'est un titre venu tout naturellement. C'est là, dans la marge, que se faufile la vie. En repensant à mes années de collège, de lycée, même d'université, je revois mes cahiers, mes feuilles volantes, marqués de petites esquisses, griffonnées sur le côté, juste en bordure. Ces marges, loin d'être vides, étaient des espaces vivants, des friches où les idées déambulaient sans contrainte, des pensées qui sortaient, sans permission, du cadre officiel des leçons. Dessiner dans les marges, pour moi, c'était une façon d'écouter, de méditer – de laisser la pensée se dérouler, de s'aventurer.
 
 Ce lien entre la marge et la liberté créative me suit aujourd'hui jusque dans mon travail de rédactrice technique. La documentation, un peu comme ces dessins d'antan, existe souvent en marge du produit. On la consulte si besoin, elle n'est pas le centre, et pourtant elle est là, à sa place d'ombre, prête à s'élancer, à enrichir l'expérience utilisateur. Et même si elle est étiquetée "technique", elle garde toujours en elle cette petite marge de liberté, ce coin secret où l'on glisse, malgré soi, un peu de créativité.
