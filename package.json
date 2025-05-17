@@ -40,10 +40,11 @@
     "update:pkgs": "npx npm-check-updates -u"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
     "hugo-extended": "0.136.2",
-    "postcss-cli": "^11.0.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
     "rtlcss": "^4.3.0"
   },
   "optionalDependencies": {
@@ -55,8 +56,5 @@
     "singleQuote": true
   },
   "main": "index.js",
-  "keywords": [],
-  "dependencies": {
-    "postcss": "^8.4.47"
-  }
+  "keywords": []
 }

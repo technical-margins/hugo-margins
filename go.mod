@@ -1,5 +1,5 @@
-module github.com/google/docsy-example
+module github.com/li-lon/hugo-margins
 
-go 1.12
+go 1.20
 
-require github.com/google/docsy v0.11.0
+require github.com/google/docsy v0.11.0 // indirect
