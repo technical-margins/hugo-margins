@@ -31,6 +31,7 @@ Overview of key files and directories:
 - `assets/` and `resources/` - Static files such as images, which support content presentation.
 - `hugo.yaml` - Main configuration file for Hugo, where settings for multilingual support and theme integration are defined.
 - `Dockerfile` & `docker-compose.yaml` - Docker configuration files for local development and consistent environments.
+- Serving command: `npm run serve`
 
 ## Theme: Docsy
 

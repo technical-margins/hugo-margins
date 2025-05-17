@@ -1,5 +1,5 @@
 baseURL: https://example.docsy.dev
-title: Tehnical Margins
+title: Hugo Margins
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -33,8 +33,8 @@ pygmentsUseClassic: false
 pygmentsStyle: tango
 
 # Configure how URLs look like per section.
-permalinks:
-  blog: /:section/:year/:month/:day/:slug/
+#permalinks:
+#  blog: /:section/:year/:month/:day/:slug/
 
 # Image processing configuration.
 imaging:
@@ -46,16 +46,16 @@ imaging:
 languages:
   en:
     languageName: English
-    title: "Technical Margins"
+    title: "Hugo Margins"
     params:
-      description:   Technical Margins is a space for exploring the overlooked edges of technical writing. For technical writers and curious minds, this blog dives into the hidden layers of documentation, random reflections, and the art of sharing diverse information.
-  # cSpell:disable
+      description:   Hugo Margins is ...
+# cSpell:disable
   fr:
     languageName: Français
     contentDir: content/fr
-    title: "Technical Margins"
+    title: "Hugo Margins"
     params:
-      description:   Technical Margins est un espace d'exploration des marges de la rédaction technique. Destiné aux rédacteurs techniques et aux esprits curieux, ce blog arpente les couches dérobées de la documentation, des réflexions aléatoires et l'art de partager des informations variées.
+      description:   Hugo Margins est ...
       time_format_default: 02.01.2006
       time_format_blog: 02.01.2006
   zh:
@@ -63,12 +63,16 @@ languages:
     contentDir: content/zh
     title: "Technical Margins"
     params:
-      description:   Technical Margins 是一個探索技術寫作邊緣的空間。針對技術寫作者和好奇的讀者，這個部落格深入文件的隱藏層面、隨機思考，以及傳遞多元資訊的藝術。
+      description:   Hugo Margins 是...
       time_format_default: 2006.01.02
       time_format_blog: 2006.01.02
   # cSpell:enable
 
 markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
   goldmark:
     parser:
       attribute:
@@ -144,7 +148,7 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Li-Lon |
+    authors: The Margin Writer |
     from_year: 2024
 
   # User interface configuration
@@ -157,6 +161,7 @@ params:
     navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: true
+    sidebar_menu_foldable: true
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
     sidebar_search_disable: false
 
@@ -165,7 +170,7 @@ params:
     # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
     # add "hide_feedback: true" to the page's front matter.
     feedback:
-      enable: true
+      enable: false
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
         Glad to hear it! Please <a href="https://github.com/li-lon/hugo-margins/issues/new">tell us how we can improve</a>.

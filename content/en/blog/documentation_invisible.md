@@ -2,7 +2,7 @@
 date: 2024-10-29
 title: "User Documentation: Making the Invisible Visible"
 linkTitle: User Documentation
-authors: Lilon
+authors: The Margin Writer
 categories:
   - TechWriting
 ---
