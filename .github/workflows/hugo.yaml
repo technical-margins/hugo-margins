@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main  # Or your default branch name
+      - main
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.136.2  # Match your local version
+      HUGO_VERSION: 0.136.2
     steps:
       - name: Install Hugo CLI
         run: |
@@ -44,8 +44,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          # Cache removed to avoid the error
       
       - name: Install dependencies
         run: npm ci
