@@ -11,95 +11,112 @@ This tutorial guides you through writing and publishing your first blog post on 
 
 Before starting, ensure you have:
 
-- [Python](https://www.python.org/downloads) (version 3.12 recommended)  
-- [Git](https://git-scm.com/downloads)  
+- [Python](https://www.python.org/downloads/) installed on your computer (version 3.12 recommended)  
+- [Git](https://git-scm.com/downloads) installed  
 - A [GitHub](https://github.com/) account  
-- Basic knowledge of [Markdown](https://www.markdownguide.org/)  
+- Basic knowledge of [Markdown](https://www.markdownguide.org/) syntax  
 - A text editor ([VS Code](https://code.visualstudio.com/download) recommended)  
+- Access to the GitHub repository: `technical-margins/material-margins` (🔒 private)
 
-{{< alert title="Tip" color="success" >}}
-Recommended VS Code extensions:
+{{< alert title="Recommended extensions for VS Code" color="success" >}}
+
 - **Python** (Microsoft)  
-- **Markdownlint** (for editing comfort)  
-{{< /alert >}}
+- **Markdownlint** (for editing comfort)
 
-You must also have access to the GitHub repository: `technical-margins/material-margins`.
+{{< /alert >}}
 
 ## Step 1: Clone the repository
 
-1. Open your file explorer.
-2. Navigate to your desired project folder, e.g. `Documents/MyProjects`.
-3. Right-click and select:
+This step involves getting a local copy of the project on your computer so you can work offline instead of directly online.
 
-   - Linux: *Open in Terminal*
-   - Windows: *Open in PowerShell*
-   - macOS: *New Terminal at Folder*
+1. Open your file explorer (Windows, Finder, or other).
 
-4. Run:
+2. Go to where you want to clone the project, for example `Documents`.
 
-    ```bash
+3. Create a folder, for example `MyProjects`.
+
+4. Right-click on this folder and select:
+
+    - on Linux: *Open in terminal*
+    - on Windows: *Open in Terminal* or *Open in PowerShell*
+    - on macOS: *New Terminal at Folder* (via *Finder > Services*; activate if needed in System Preferences)
+
+5. Clone the repository by typing the command:
+
+    ``` bash
     git clone https://github.com/technical-margins/material-margins.git
     ```
 
-5. Open VS Code: *File > Open Folder*, then select `material-margins`.
+6. Open VS Code and select:
+   *File > Open Folder*, then choose `material-margins`.
 
-6. You should see:
+7. Check that you see the following files and folders in VS Code:
+  
+    - `requirements.txt`  
+    - the `config` folder
+    - the `docs` folder  
+    - the `overrides` folder
 
-    - `requirements.txt`
-    - `config/`
-    - `docs/`
-    - `overrides/`
+{{< alert title="Advanced users: command line method" color="success" >}}
 
-{{< alert title="Tip for advanced users" color="success" >}}
-From the command line:
+If you're comfortable with the terminal, you can do:
 
-```bash
-cd /path/to/folder
+``` bash
+cd /path/to/destination/folder
 git clone https://github.com/technical-margins/material-margins.git
 cd material-margins
 code .
 ```
 
-Ensure `code` is in your PATH.
+*Ensure the `code` command is available (added to PATH) to open VS Code from the terminal.*
+
 {{< /alert >}}
 
 ## Step 2: Prepare your environment
 
-1. In VS Code: *Terminal > New Terminal*
+Here you'll set up an isolated Python environment to install all necessary dependencies without affecting your system settings.
 
-2. Create a virtual environment:
+1. After opening the material-margins project in VS Code, open the integrated terminal:
+   *Terminal > New Terminal*
 
-   ```bash
-   python -m venv .venv
-   ```
+2. Create the Python virtual environment:
 
-3. Activate it:
+    ``` bash
+    python -m venv .venv
+    ```
 
-   * macOS/Linux:
+3. Activate the virtual environment:
 
-     ```bash
-     source .venv/bin/activate
-     ```
+    - on macOS/Linux:
 
-   * Windows (PowerShell):
+       ``` bash
+       source .venv/bin/activate
+       ```
 
-     ```sh
-     .venv\Scripts\Activate.ps1
-     ```
+    - on Windows (PowerShell):
 
-4. Check the `(.venv)` prefix in the terminal prompt.
+      ``` sh
+      .venv\Scripts\Activate.ps1
+      ```
 
-5. Install dependencies:
+4. Verify that the environment is activated: you should see `(.venv)` at the beginning of the command line in the terminal.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+5. Install the project dependencies:
 
-{{< alert title="CLI-only alternative" color="success" >}}
+    ``` bash
+    pip install -r requirements.txt
+    ```
 
-From the command line:
+6. Expected result:
 
-```bash
+    - The virtual environment is activated.
+    - The dependencies (such as MkDocs, Material, etc.) are installed.
+
+{{< alert title="Advanced users: command line method" color="success" >}}
+
+From a terminal, without using VS Code:
+
+``` bash
 cd material-margins
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -111,14 +128,21 @@ code .
 
 ## Step 3: Create a blog post file
 
-1. In VS Code, open `docs/en/blog/posts/`.
-2. Right-click `posts/` → *New File* → `my-first-post.md`.
+In this step, we'll create the Markdown file that will hold your post's content.
 
-{{< alert title="CLI-only alternative" color="success" >}}
+1. In VS Code, open the folder: `docs/en/blog/posts/`
 
-From the command line:
+2. Right-click on the `posts` folder and select *New File*.
 
-```bash
+3. Enter the filename, for example: `my-first-post.md`
+
+4. Verify that the file appears in the VS Code explorer under `docs/en/blog/posts/`
+
+{{< alert title="Advanced users: alternative method using command line" color="success" >}}
+
+For advanced users, it's possible to create the file directly from the terminal:
+
+``` bash
 touch docs/en/blog/posts/my-first-post.md
 ```
 
@@ -126,77 +150,133 @@ touch docs/en/blog/posts/my-first-post.md
 
 ## Step 4: Add metadata and content
 
-Open `my-first-post.md` and insert:
+Now it's time to structure your post and add the required information for proper display in the blog.
 
-```markdown
----
-date:
-  created: 2025-05-07
-comments: true
-authors:
-  - TheMarginWriter
-slug: my-first-post
-categories:
-  - Personal reflections
-tags:
-  - Learning
-  - MkDocs
-  - Tutorial
----
+1. Open the `my-first-post.md` file in VS Code.
 
-# My first post on Technical Margins
+2. Add the following elements into the file:
 
-This is my first post on *Technical Margins*. In this post, I share...
+    ```markdown
+    ---
+    date:
+      created: 2025-05-07
+    comments: true
+    authors:
+      - TheMarginWriter
+    slug: my-first-post
+    categories:
+      - Personal reflections
+    tags:
+      - Learning
+      - MkDocs
+      - Tutorial
+    ---
 
-<!-- more -->
+    # My first post on Technical Margins
 
-## Introduction
+    This is my first post on *Technical Margins*. In this post, I share...
 
-Your introduction here...
+    <!-- more -->
 
-## Main section
+    ## Introduction
 
-The core of your content here...
+    Your introduction here...
 
-<figure markdown="1">
-![Alternative text for the image](https://example.com/path/to/image.jpg)
-</figure>
+    ## Main section
 
-## Conclusion
+    The core of your content here...
 
-Your conclusion here...
-```
+    <figure markdown="1">
+    ![Alternative text for the image](https://example.com/path/to/image.jpg)
+    </figure>
 
-* Use **absolute URLs** for images.
-* The `slug` defines the post's final URL segment.
-* `<!-- more -->` controls the preview summary on blog listing pages.
+    ## Conclusion
 
-{{< alert title="Multilingual structure" color="info" >}}
-Place files in the correct subfolder:
+    Your conclusion here...
+    ```
 
-* French: `docs/fr/blog/posts/`
-* English: `docs/en/blog/posts/`
-* Simplified Chinese: `docs/zh-cn/blog/posts/`
-* Traditional Chinese: `docs/zh-tw/blog/posts/`
-* Japanese: `docs/ja/blog/posts/`
+3. Ensure you use absolute links for images, hosted externally (for example on DeviantArt), to keep the repository lightweight.
+
+4. Verify that the `date.created` field is filled in correctly (in the metadata at the top of the page). It determines the display date and URL of the post, for example `/blog/2025/05/07/...`.
+
+5. Specify a `slug` for the post. Although this field is optional, it is recommended in this project:
+
+    - The slug defines the final segment of the post's URL (example: `my-first-post`).
+    - It should be lowercase, without accents or spaces (use hyphens).
+    - In this multilingual blog, the slug is used to synchronise URLs between language versions of the same post.
+
+  {{< alert title="Example" color="secondary" >}}
+
+  Automatically generated URL:
+
+  ```
+  https://technical-margins.github.io/material-margins/en/blog/2025/05/07/my-first-post/
+  ```
+
   {{< /alert >}}
+
+6. Write and edit your article content:
+
+    - Replace the placeholder text in the *Introduction*, *Main section*, and *Conclusion* with your actual content.
+    - Add relevant images, code examples, or other media as needed.
+    - Ensure your article flows logically and provides value to readers.
+    - Proofread your content for spelling and grammatical errors.
+
+7. If you're working in another language, create the file in the corresponding folder and repository:
+
+    - French: `docs/fr/blog/posts/`
+    - English: `docs/en/blog/posts/`
+    - Simplified Chinese: `docs/zh-cn/blog/posts/`
+    - Traditional Chinese: `docs/zh-tw/blog/posts/`
+    - Japanese: `docs/ja/blog/posts/`
+
+{{< alert title="Automatic blog functioning" color="info" >}}
+
+Note that it is not necessary to modify the `mkdocs.yml` file for the post to appear in the blog. The Material theme automatically detects blog posts and generates the URL based on the date and slug.
+
+{{< /alert >}}
 
 ## Step 5: Preview your post
 
-1. Ensure `(.venv)` is active in terminal.
+Before publishing, this step shows you how to launch a local server to check how your post looks and functions.
 
-2. Run:
+1. In VS Code, open the integrated terminal if necessary:
+  *Terminal > New Terminal*
 
-   ```bash
-   mkdocs serve -f config/en/mkdocs.yml
-   ```
+2. Check that the virtual environment is activated. You should see `(.venv)` at the beginning of the command line. If not, activate it manually.
 
-3. Open [http://localhost:8000/](http://localhost:8000/) in your browser.
+  {{< alert title="Reminder" color="success" >}}
 
-{{< alert title="Local language preview" color="info" >}}
-To preview another language:
+  - on macOS/Linux:
 
-```bash
+  ```bash
+  source .venv/bin/activate
+  ```
+
+  - on Windows (PowerShell):
+
+  ```bash
+  .venv\Scripts\Activate.ps1
+  ```
+
+  {{< /alert >}}
+
+3. Start the local server with the English configuration by entering the following command in the terminal:
+
+    ``` bash
+    mkdocs serve -f config/en/mkdocs.yml
+    ```
+
+4. In your browser, go to: [http://localhost:8000/](http://localhost:8000)
+
+5. Check that your post appears in the *Blog* section and that its content is correctly formatted.
+
+{{< alert title="Local language limitation" color="warning" >}}
+
+You can only serve one site at a time locally.  
+To preview another language, restart `mkdocs serve` with the appropriate configuration file, for example:
+
+``` bash
 mkdocs serve -f config/fr/mkdocs.yml
 ```
 
@@ -204,34 +284,48 @@ mkdocs serve -f config/fr/mkdocs.yml
 
 ## Step 6: Commit and push your changes
 
-```bash
-git add docs/en/blog/posts/my-first-post.md
-git commit -m "Add my first post"
-git push origin main
-```
+This is where you'll save your work in Git and upload it to GitHub in preparation for publication.
+
+1. In VS Code, open the integrated terminal.
+
+2. Add the file to the Git index:
+
+    ``` bash
+    git add docs/en/blog/posts/my-first-post.md
+    ```
+
+3. Save the commit:
+
+    ``` bash
+    git commit -m "Add my first post"
+    ```
+
+4. Push the changes to the main branch:
+
+    ``` bash
+    git push origin main
+    ```
 
 ## Step 7: Check the published post
 
-Visit:
+Finally, we'll visit the online site to confirm your post appears as intended.
 
-```sh
-https://technical-margins.github.io/material-margins/
-```
+1. Open the following URL in your browser: [https://technical-margins.github.io/material-margins/](https://technical-margins.github.io/material-margins/)
 
-Check your post under *Blog*.
+2. Check that your post appears in the *Blog* section with the expected images and structure.
 
-{{< alert title="Multilingual redirection" color="info" >}}
+{{< alert title="Multilingual redirection" clor="info" >}}
 
-The root `index.html` detects your browser's language and redirects to `/en/`, `/fr/`, `/zh-cn/`, `/zh-tw/`, or `/ja/`.
+The `index.html` file at the root automatically detects your browser's language and redirects to the correct version of the site (`/en/`, `/fr/`, `/zh-cn/`, `/zh-tw/`, or `/ja/`).
 
 {{< /alert >}}
 
 ## What next?
 
-Now that your first post is live, try:
+Now that you've published your first post, why not:
 
-* Using richer formatting like [tables](https://squidfunk.github.io/mkdocs-material/reference/data-tables/)
-* Adding [code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
-* Inserting [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) or diagrams
+- Experiment with richer formatting ([tables](https://squidfunk.github.io/mkdocs-material/reference/data-tables/), [diagrams](https://squidfunk.github.io/mkdocs-material/reference/diagrams/)...)
+- Add [code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/) with syntax highlighting
+- Insert interactive elements like [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) (like those in this tutorial!)
 
-Enjoy blogging on *Technical Margins* 🎉
+Congratulations on your first post published on *Technical Margins*!
