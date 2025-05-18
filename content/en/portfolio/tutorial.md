@@ -314,7 +314,7 @@ Finally, we'll visit the online site to confirm your post appears as intended.
 
 2. Check that your post appears in the *Blog* section with the expected images and structure.
 
-{{< alert title="Multilingual redirection" clor="info" >}}
+{{< alert title="Multilingual redirection" color="info" >}}
 
 The `index.html` file at the root automatically detects your browser's language and redirects to the correct version of the site (`/en/`, `/fr/`, `/zh-cn/`, `/zh-tw/`, or `/ja/`).
 

@@ -33,6 +33,30 @@
     color: darken($info, 15%) !important;
 }
 
+.alert-success {
+    background-color: lighten($success, 45%) !important;
+    border-color: $success !important;
+    color: darken($success, 15%) !important;
+}
+
+.alert-danger {
+    background-color: lighten($danger, 45%) !important;
+    border-color: $danger !important;
+    color: darken($danger, 15%) !important;
+}
+
+.alert-primary {
+    background-color: lighten($primary, 45%) !important;
+    border-color: $primary !important;
+    color: darken($primary, 15%) !important;
+}
+
+.alert-secondary {
+    background-color: lighten($secondary, 45%) !important;
+    border-color: $secondary !important;
+    color: darken($secondary, 15%) !important;
+}
+
 .nav-item {
     font-family: 'Noto Serif' !important;
 }
