@@ -2,7 +2,8 @@
 date: 2024-10-29
 title: "使用者文件：讓無形變有形"
 linkTitle: 使用者文件
-authors: Lilon
+authors: TheMarginWriter
+type: blog
 categories:
   - 技術寫作
 ---

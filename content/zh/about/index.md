@@ -1,7 +1,7 @@
 ---
 title: 關於我
 linkTitle: 關於
-menu: {main: {weight: 10}}
+menu: {main: {weight: 30}}
 ---
 
 {{% blocks/cover title="關於我" image_anchor="bottom" height="auto" %}}

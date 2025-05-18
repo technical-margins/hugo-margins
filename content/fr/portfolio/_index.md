@@ -1,10 +1,7 @@
 ---
 title: "Portfolio de Documentation"
 linkTitle: "Portfolio"
-weight: 20
-menu:
-  main:
-    weight: 20
+menu: {main: {weight: 10}}
 type: docs
 ---
 
@@ -18,10 +15,25 @@ Cette section est actuellement en cours de rédaction et de mise en forme. Son c
 
 Je m'inspire du cadre [Diátaxis](https://diataxis.fr/), sans l'appliquer de façon rigide, et des modèles de [The Good Docs Project](https://thegooddocsproject.dev/) pour assurer clarté et qualité.
 
-* **[Tutoriel](./tutorial.md) :** Guides pas à pas conçus pour aider les débutants à apprendre par la pratique
-* **Guide pratique :** Mode d'emploi pour résoudre des problèmes précis
-* **Explication :** Explications pour aider à comprendre des notions ou des choix
-* **Référence :** Descriptions techniques précises de systèmes ou de configurations
+{{< cardpane >}}
+
+{{< card header="[Tutoriel](./tutorial.md)" >}}
+Mode d'emploi pour résoudre des problèmes précis
+{{< /card >}}
+
+{{< card header="Guide pratique" >}}
+Instructions for solving specific problems
+{{< /card >}}
+
+{{< card header="Explication" >}}
+Explications pour aider à comprendre des notions ou des choix
+{{< /card >}}
+
+{{< card header="Référence" >}}
+Descriptions techniques précises de systèmes ou de configurations
+{{< /card >}}
+
+{{< /cardpane >}}
 
 Mon objectif est de produire une documentation simple, utile et accessible, adaptée à chaque projet et à son public.
 

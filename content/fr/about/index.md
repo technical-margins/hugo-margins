@@ -1,7 +1,7 @@
 ---
 title: À propos
 linkTitle: About
-menu: {main: {weight: 10}}
+menu: {main: {weight: 30}}
 ---
 
 {{% blocks/cover title="À propos" image_anchor="bottom" height="auto" %}}

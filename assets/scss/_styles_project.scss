@@ -30,13 +30,14 @@
 .nav-item {
     font-family: 'Noto Serif' !important;
 }
-.h1 {
+
+h1 {
     font-family: 'Noto Serif' !important;
 }
-.h2 {
+h2 {
     font-family: 'Noto Serif' !important;
 }
-.h3 {
+h3 {
     font-family: 'Noto Serif' !important;
 }
 
@@ -53,4 +54,22 @@
 
 .nav-item {
   font-family: 'Montserrat' !important;
+}
+
+.card-header {
+  background-color: $secondary !important;
+  color: white !important;
+  text-align: center !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  padding: 1rem !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-body {
+  background-color: #d6d7d8 !important;
+  color: #333 !important;
+  font-size: small !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
 }

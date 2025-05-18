@@ -2,9 +2,11 @@
 date: 2024-10-29
 title: "La documentation utilisateur : l'invisible qui rend visible"
 linkTitle: La documentation utilisateur
-authors: Lilon
+authors: The Margin Writer
+type: blog
 categories:
-  - RédactTech
+  - Rédaction Technique
+  - Documentation
 ---
 
 ## Au cœur de l'expérience utilisateur

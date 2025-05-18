@@ -1,6 +1,6 @@
 ---
 title: 部落格
-menu: {main: {weight: 30}}
+menu: {main: {weight: 20}}
 ---
 
 This is the **blog** section.

@@ -3,8 +3,10 @@ date: 2024-10-29
 title: "User Documentation: Making the Invisible Visible"
 linkTitle: User Documentation
 authors: The Margin Writer
+type: blog
 categories:
-  - TechWriting
+  - Technical Writing
+  - Documentation
 ---
 
 ## At the Heart of User Experience
