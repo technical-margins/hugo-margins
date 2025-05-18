@@ -17,7 +17,7 @@ Before starting, ensure you have:
 - Basic knowledge of [Markdown](https://www.markdownguide.org/)  
 - A text editor ([VS Code](https://code.visualstudio.com/download) recommended)  
 
-{{< alert title="Tip" >}}
+{{< alert title="Tip" color="success" >}}
 Recommended VS Code extensions:
 - **Python** (Microsoft)  
 - **Markdownlint** (for editing comfort)  
@@ -50,7 +50,7 @@ You must also have access to the GitHub repository: `technical-margins/material-
     - `docs/`
     - `overrides/`
 
-{{< alert title="Tip for advanced users" >}}
+{{< alert title="Tip for advanced users" color="success" >}}
 From the command line:
 
 ```bash
@@ -58,7 +58,7 @@ cd /path/to/folder
 git clone https://github.com/technical-margins/material-margins.git
 cd material-margins
 code .
-````
+```
 
 Ensure `code` is in your PATH.
 {{< /alert >}}
@@ -83,7 +83,7 @@ Ensure `code` is in your PATH.
 
    * Windows (PowerShell):
 
-     ```powershell
+     ```sh
      .venv\Scripts\Activate.ps1
      ```
 
@@ -95,7 +95,7 @@ Ensure `code` is in your PATH.
    pip install -r requirements.txt
    ```
 
-{{< alert title="CLI-only alternative" >}}
+{{< alert title="CLI-only alternative" color="success" >}}
 
 From the command line:
 
@@ -114,7 +114,7 @@ code .
 1. In VS Code, open `docs/en/blog/posts/`.
 2. Right-click `posts/` → *New File* → `my-first-post.md`.
 
-{{< alert title="CLI-only alternative" >}}
+{{< alert title="CLI-only alternative" color="success" >}}
 
 From the command line:
 
@@ -171,7 +171,7 @@ Your conclusion here...
 * The `slug` defines the post's final URL segment.
 * `<!-- more -->` controls the preview summary on blog listing pages.
 
-{{< alert title="Multilingual structure" >}}
+{{< alert title="Multilingual structure" color="info" >}}
 Place files in the correct subfolder:
 
 * French: `docs/fr/blog/posts/`
@@ -193,7 +193,7 @@ Place files in the correct subfolder:
 
 3. Open [http://localhost:8000/](http://localhost:8000/) in your browser.
 
-{{< alert title="Local language preview" >}}
+{{< alert title="Local language preview" color="info" >}}
 To preview another language:
 
 ```bash
@@ -214,14 +214,16 @@ git push origin main
 
 Visit:
 
-```
+```sh
 https://technical-margins.github.io/material-margins/
 ```
 
 Check your post under *Blog*.
 
-{{< alert title="Multilingual redirection" >}}
+{{< alert title="Multilingual redirection" color="info" >}}
+
 The root `index.html` detects your browser's language and redirects to `/en/`, `/fr/`, `/zh-cn/`, `/zh-tw/`, or `/ja/`.
+
 {{< /alert >}}
 
 ## What next?

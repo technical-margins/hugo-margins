@@ -14,7 +14,7 @@ But a seed, however carefully planted, is not yet a plant. And information, howe
 
 However, while our role focuses on preparing and making seeds available, we mustn't lose sight of the shifting essence of knowledge itself. For once an idea has germinated somewhere – within an individual, within a team – its true richness lies in its ability to travel, adapt, and transform when it encounters new environments. It's this dynamic I wish to explore here.
 
-![A colourful, hand-drawn representation of the DIKW hierarchy as a garden. The diagram is vertically structured and split into four layers: data (soil), information (tilled layer), knowledge (plants), wisdom (sky).](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09c917d0-f5ca-4b29-a706-5e3ed5489e13/djnpdfr-e1fd036d-3314-42e2-8650-742f567a8ea1.jpg/v1/fill/w_1024,h_770,q_75,strp/knowledge_pyramid_by_li__lon_djnpdfr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzcwIiwicGF0aCI6IlwvZlwvMDljOTE3ZDAtZjVjYS00YjI5LWE3MDYtNWUzZWQ1NDg5ZTEzXC9kam5wZGZyLWUxZmQwMzZkLTMzMTQtNDJlMi04NjUwLTc0MmY1NjdhOGVhMS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ig8cxwA4nrPfe8q1xk-_EfUmoW4olBn2qFr4p5uJ-pg)
+![A colourful, realistic representation of the DIKW hierarchy as a garden, split into four layers: data (soil), information (tilled layer), knowledge (plants), wisdom (sky).](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09c917d0-f5ca-4b29-a706-5e3ed5489e13/djmdxm0-ca33c419-4922-4648-912e-3b9375090d99.png/v1/fill/w_1095,h_730,q_70,strp/kmphoto.png-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzA5YzkxN2QwLWY1Y2EtNGIyOS1hNzA2LTVlM2VkNTQ4OWUxM1wvZGptZHhtMC1jYTMzYzQxOS00OTIyLTQ2NDgtOTEyZS0zYjkzNzUwOTBkOTkucG5nIiwid2lkdGgiOiI8PTE1MzYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.i9T-Y0i7qVq93vgm4FhVDOkxvttIckg_EXkUyK4m6k0)
 
 ## Knowledge in Quarantine / The Deceptive Calm of the Island
 
@@ -52,8 +52,8 @@ Knowledge management then becomes a patient work of horticulture: preparing the 
 
 *Remain a gardener of the living, always ready to welcome what is not yet foreseen.*
 
-{{% alert title="Small note" color="info" %}}
+{{< alert title="Small note" color="info" >}}
 
 It's precisely through this process that these reflections came to me. Stepping out of my daily role, breathing the air of the Documation trade fair, engaging in stimulating internal discussions on *Knowledge Management*, and immersing myself in readings on the subject... all perfectly illustrated how "pollens" from elsewhere can enrich our own little garden. And it's to develop this idea that I undertook to write this article.
 
-{{% /alert %}}
+{{< /alert >}}

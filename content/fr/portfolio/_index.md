@@ -7,12 +7,6 @@ type: docs
 
 Cette section regroupe plusieurs exemples de documentation que j'ai réalisés. Comme je ne peux pas partager mes travaux professionnels, j'ai pris la création de ce site dans sa version MkDocs comme exemple.
 
-{{< alert title="Travail en cours:" color="warning" >}}
-
-Cette section est actuellement en cours de rédaction et de mise en forme. Son contenu est susceptible d’évoluer.
-
-{{< /alert >}}
-
 Je m'inspire du cadre [Diátaxis](https://diataxis.fr/), sans l'appliquer de façon rigide, et des modèles de [The Good Docs Project](https://thegooddocsproject.dev/) pour assurer clarté et qualité.
 
 {{< cardpane >}}
@@ -21,15 +15,15 @@ Je m'inspire du cadre [Diátaxis](https://diataxis.fr/), sans l'appliquer de fa�
 Mode d'emploi pour résoudre des problèmes précis
 {{< /card >}}
 
-{{< card header="Guide pratique" >}}
+{{< card header="[Guide pratique](./guide/)" >}}
 Instructions for solving specific problems
 {{< /card >}}
 
-{{< card header="Explication" >}}
+{{< card header="[Explication](./explanation/)" >}}
 Explications pour aider à comprendre des notions ou des choix
 {{< /card >}}
 
-{{< card header="Référence" >}}
+{{< card header="[Référence](./explanation/)" >}}
 Descriptions techniques précises de systèmes ou de configurations
 {{< /card >}}
 

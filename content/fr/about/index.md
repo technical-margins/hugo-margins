@@ -1,6 +1,6 @@
 ---
 title: À propos
-linkTitle: About
+linkTitle: À propos
 menu: {main: {weight: 30}}
 ---
 

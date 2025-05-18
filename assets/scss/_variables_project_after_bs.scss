@@ -1,0 +1,6 @@
+$custom-colors: (
+  'my-favorite-color': orange,
+  'my-other-color': cyan,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

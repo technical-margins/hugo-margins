@@ -48,24 +48,24 @@ languages:
     languageName: English
     title: "Hugo Margins"
     params:
-      description:   Hugo Margins is ...
+      description:   Hugo Margins is an experimental site exploring static site generation with Hugo and the Docsy theme. It features a blog, portfolio section and offers a multilingual experience in English, French and Chinese.
 # cSpell:disable
   fr:
     languageName: Français
     contentDir: content/fr
     title: "Hugo Margins"
     params:
-      description:   Hugo Margins est ...
+      description:   Hugo Margins est un site expérimental sur la génération de sites statiques avec Hugo et le thème Docsy. Il présente un blog, un portfolio et propose une expérience multilingue en français, anglais et chinois.
       time_format_default: 02.01.2006
       time_format_blog: 02.01.2006
   zh:
     languageName: "中文"
     contentDir: content/zh
-    title: "Technical Margins"
+    title: "Hugo Margins"
     params:
-      description:   Hugo Margins 是...
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
+      description:   Hugo Margins 是一個使用 Hugo 和 Docsy 主題的靜態網站實驗平台。網站包含部落格、作品集，並提供中文、英文和法文的多語言體驗。
+      time_format_default: 2006年01月02日
+      time_format_blog: 2006年01月02日
   # cSpell:enable
 
 markup:

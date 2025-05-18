@@ -3,6 +3,4 @@ title: Blog
 menu: {main: {weight: 20}}
 ---
 
-This is the **blog** section.
-
-Articles in this section will be listed in reverse chronological order.
+Blog personnel explorant des sujets liés à la documentation technique, la gestion des connaissances et les réflexions sur les technologies de l'information. Articles disponibles en français, anglais et chinois.

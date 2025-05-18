@@ -3,6 +3,4 @@ title: 部落格
 menu: {main: {weight: 20}}
 ---
 
-This is the **blog** section.
-
-Articles in this section will be listed in reverse chronological order.
+個人部落格，探討技術文件、知識管理以及資訊科技相關的思考。文章提供中文、英文和法文版本。

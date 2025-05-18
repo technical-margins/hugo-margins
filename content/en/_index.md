@@ -7,9 +7,12 @@ title: Hugo Margins
 {{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
-*Hugo Margins* is, above all, a space for technical experimentation, where I explore static site generators, this time using **Hugo** and its modular ecosystem. This project also gives me the opportunity to deepen my understanding of content structuring, Git submodules, and the features offered by the **Docsy** theme.
 
-Although this site is publicly accessible, it is primarily a **testing ground**, rather than a polished reading space.
+*Hugo Margins* is a companion to *Technical Margins*, exploring a different approach to static site generation. While Technical Margins uses MkDocs, this project implements the **Hugo** architecture and features of the **Docsy** theme.
+
+This site serves as both an experimental platform and a practical example. It allows me to explore Hugo's specific content structure, its customisation mechanisms, and the integration of complex components in a technical documentation environment.
+
+The site is organised into several main sections: [Portfolio](./portfolio/), [Blog](./blog/) and [About](./about/). It also offers a multilingual experience (English, [French](./fr/) and [Chinese](./zh/)), although the Portfolio section is currently only available in English and French. Please note that the language selector is not accessible on mobile devices due to a known limitation of the Docsy theme.
 
 {{% /blocks/lead %}}
 

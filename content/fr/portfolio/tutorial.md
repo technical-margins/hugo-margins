@@ -1,6 +1,6 @@
 ---
 title: "Tutoriel : Créez votre premier article de blog"
-linkTitle: "Créer votre premier article"
+linkTitle: "Tutoriel"
 weight: 10  
 type: docs
 ---
@@ -17,8 +17,10 @@ Avant de commencer, assurez-vous d’avoir :
 - Des bases de [Markdown](https://www.markdownguide.org/)  
 - Un éditeur de texte, par ex. [VS Code](https://code.visualstudio.com/download)  
 
-{{< alert title="Conseil" >}}
+{{< alert title="Conseil" color="success" >}}
+
 Extensions VS Code recommandées :
+
 - **Python** (Microsoft)  
 - **Markdownlint** (pour faciliter l’édition)  
 {{< /alert >}}
@@ -28,12 +30,13 @@ Accès requis au dépôt GitHub : `technical-margins/material-margins`
 ## Étape 1 : Cloner le dépôt
 
 1. Ouvrez l’explorateur de fichiers.
+   
 2. Allez dans le dossier de votre choix, ex. `Documents/MesProjets`
-3. Faites clic droit puis :
-
-   - Linux : *Ouvrir dans un terminal*
-   - Windows : *Ouvrir dans PowerShell*
-   - macOS : *Nouveau terminal au dossier*
+   
+3. Faites clic droit puis :  
+   - Linux : *Ouvrir dans un terminal*  
+   - Windows : *Ouvrir dans PowerShell*  
+   - macOS : *Nouveau terminal au dossier*  
 
 4. Exécutez :
 
@@ -49,7 +52,7 @@ Accès requis au dépôt GitHub : `technical-margins/material-margins`
    - `docs/`
    - `overrides/`
 
-{{< alert title="Utilisateurs avancés" >}}
+{{< alert title="Utilisateurs avancés" color="success" >}}
 Depuis le terminal :
 
 ```bash
@@ -74,13 +77,13 @@ Assurez-vous que la commande `code` est dans votre PATH.
 
 3. Activez-le :
 
-   * macOS/Linux :
+   - macOS/Linux :
 
      ```bash
      source .venv/bin/activate
      ```
 
-   * Windows (PowerShell) :
+   - Windows (PowerShell) :
 
      ```powershell
      .venv\Scripts\Activate.ps1
@@ -94,7 +97,7 @@ Assurez-vous que la commande `code` est dans votre PATH.
    pip install -r requirements.txt
    ```
 
-{{< alert title="Méthode alternative CLI" >}}
+{{< alert title="Méthode alternative CLI" color="success" >}}
 
 Depuis le terminal :
 
@@ -113,7 +116,7 @@ code .
 1. Dans VS Code, allez dans `docs/fr/blog/posts/`
 2. Clic droit → *Nouveau fichier* → `mon-premier-article.md`
 
-{{< alert title="Méthode alternative CLI" >}}
+{{< alert title="Méthode alternative CLI" color="success" >}}
 
 Depuis le terminal :
 
@@ -166,18 +169,18 @@ Le contenu principal ici...
 Conclusion ici...
 ```
 
-* Utilisez des **URL absolues** pour les images.
-* Le champ `slug` détermine le segment final de l’URL.
-* Le `<!-- more -->` sert à découper l’aperçu du billet sur la page de liste.
+- Utilisez des **URL absolues** pour les images.
+- Le champ `slug` détermine le segment final de l’URL.
+- Le `<!-- more -->` sert à découper l’aperçu du billet sur la page de liste.
 
 {{< alert title="Structure multilingue" >}}
 Emplacement du fichier selon la langue :
 
-* Français : `docs/fr/blog/posts/`
-* Anglais : `docs/en/blog/posts/`
-* Chinois simplifié : `docs/zh-cn/blog/posts/`
-* Chinois traditionnel : `docs/zh-tw/blog/posts/`
-* Japonais : `docs/ja/blog/posts/`
+- Français : `docs/fr/blog/posts/`
+- Anglais : `docs/en/blog/posts/`
+- Chinois simplifié : `docs/zh-cn/blog/posts/`
+- Chinois traditionnel : `docs/zh-tw/blog/posts/`
+- Japonais : `docs/ja/blog/posts/`
   {{< /alert >}}
 
 ## Étape 5 : Prévisualiser l’article
@@ -219,7 +222,7 @@ https://technical-margins.github.io/material-margins/
 
 L’article devrait apparaître dans *Blog*.
 
-{{< alert title="Redirection multilingue" >}}
+{{< alert title="Redirection multilingue" color="info" >}}
 Le `index.html` principal redirige automatiquement vers `/fr/`, `/en/`, etc., selon la langue du navigateur.
 {{< /alert >}}
 
@@ -227,6 +230,6 @@ Le `index.html` principal redirige automatiquement vers `/fr/`, `/en/`, etc., se
 
 Essayez :
 
-* [Des tableaux](https://squidfunk.github.io/mkdocs-material/reference/data-tables/)
-* [Des blocs de code](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
-* [Des admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+- [Des tableaux](https://squidfunk.github.io/mkdocs-material/reference/data-tables/)
+- [Des blocs de code](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
+- [Des admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)

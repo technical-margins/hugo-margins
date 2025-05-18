@@ -15,7 +15,7 @@ Mais une graine, aussi soigneusement plantée soit-elle, n'est pas encore une pl
 
 Or, si notre rôle se concentre sur la préparation et la mise à disposition des graines, nous ne devons pas perdre de vue l'essence mouvante de la connaissance. Car une fois qu'une idée a germé quelque part – chez un individu, au sein d'une équipe –, sa véritable richesse réside dans sa capacité à voyager, à s'adapter, à se métamorphoser au contact de nouveaux environnements. C'est cette dynamique que je souhaite explorer ici.
 
-![Représentation colorée et dessinée à la main de la hiérarchie DIKW comme un jardin. Le schéma est structuré verticalement en quatre couches : données (sol), information (terre travaillée), connaissance (plantes), sagesse (ciel).](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09c917d0-f5ca-4b29-a706-5e3ed5489e13/djnpdfr-e1fd036d-3314-42e2-8650-742f567a8ea1.jpg/v1/fill/w_1024,h_770,q_75,strp/knowledge_pyramid_by_li__lon_djnpdfr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzcwIiwicGF0aCI6IlwvZlwvMDljOTE3ZDAtZjVjYS00YjI5LWE3MDYtNWUzZWQ1NDg5ZTEzXC9kam5wZGZyLWUxZmQwMzZkLTMzMTQtNDJlMi04NjUwLTc0MmY1NjdhOGVhMS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ig8cxwA4nrPfe8q1xk-_EfUmoW4olBn2qFr4p5uJ-pg)
+![Représentation colorée réaliste de la hiérarchie DIKW comme un jardin, structuré en quatre couches : données (sol), information (terre travaillée), connaissance (plantes), sagesse (ciel).](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09c917d0-f5ca-4b29-a706-5e3ed5489e13/djmdxm0-ca33c419-4922-4648-912e-3b9375090d99.png/v1/fill/w_1095,h_730,q_70,strp/kmphoto.png-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzA5YzkxN2QwLWY1Y2EtNGIyOS1hNzA2LTVlM2VkNTQ4OWUxM1wvZGptZHhtMC1jYTMzYzQxOS00OTIyLTQ2NDgtOTEyZS0zYjkzNzUwOTBkOTkucG5nIiwid2lkdGgiOiI8PTE1MzYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.i9T-Y0i7qVq93vgm4FhVDOkxvttIckg_EXkUyK4m6k0)
 
 ## Le savoir en quarantaine / Le calme trompeur de l'île
 
@@ -53,9 +53,9 @@ Gérer la connaissance devient alors un travail patient d'horticulture : prépa
 
 *Rester jardinier du vivant, toujours prêt à accueillir ce qui n'est pas encore prévu.*
 
-{{% alert title="Petite note" color="info" %}}
+{{< alert title="Petite note" color="info" >}}
 
 C'est précisément par ce mécanisme que cette réflexion m'est venue. En sortant de mon rôle quotidien, en allant humer l'air du salon Documation, en m'engageant dans des discussions internes stimulantes sur le *Knowledge Management*, puis en me plongeant dans des lectures sur le sujet... Tout cela a été une parfaite illustration de la manière dont les "pollens" venus d'ailleurs viennent enrichir notre petit jardin. Et c'est pour développer cette idée que j'ai entrepris d'écrire cet article.
 
-{{% /alert %}}
+{{< /alert >}}
 
