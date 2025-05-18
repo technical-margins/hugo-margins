@@ -17,7 +17,7 @@ Je m'inspire du cadre [Diátaxis](https://diataxis.fr/), sans l'appliquer de fa�
 
 {{< cardpane >}}
 
-{{< card header="[Tutoriel](./tutorial.md)" >}}
+{{< card header="[Tutoriel](./tutorial/)" >}}
 Mode d'emploi pour résoudre des problèmes précis
 {{< /card >}}
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 .alert {
     background-color: lighten($info, 45%) !important;     // Custom background color
     border: 1px solid $info !important;                   // Custom border color
@@ -33,12 +35,36 @@
 
 h1 {
     font-family: 'Noto Serif' !important;
+    color: $primary !important;
 }
+
+
 h2 {
     font-family: 'Noto Serif' !important;
+    color: $primary !important;
 }
+
 h3 {
     font-family: 'Noto Serif' !important;
+    color: $secondary !important;
+}
+
+.text-center h1 {
+    font-family: 'Noto Serif' !important;
+    color: white !important;
+}
+
+.td-box h1 {
+    font-family: 'Noto Serif' !important;
+    color: $secondary !important;
+}
+.td-box h2 {
+    font-family: 'Noto Serif' !important;
+    color: $primary !important;
+}
+.td-box h3 {
+    font-family: 'Noto Serif' !important;
+    color: whitesmoke !important;
 }
 
 .text-left {
@@ -46,10 +72,6 @@ h3 {
   margin-left: 0;
   padding-left: 0;
   width: 100%;
-}
-
-.primary {
-  background-color: #df4a4a !important;
 }
 
 .nav-item {

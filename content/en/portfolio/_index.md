@@ -18,7 +18,7 @@ I draw inspiration from the [Diátaxis](https://diataxis.fr/) framework, without
 
 {{< cardpane >}}
 
-{{< card header="[Tutorial](./tutorial.md)" >}}
+{{< card header="[Tutorial](./tutorial/)" >}}
 Step-by-step guides designed to help beginners learn through practice
 {{< /card >}}
 
