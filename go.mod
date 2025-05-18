@@ -1,4 +1,4 @@
-module github.com/li-lon/hugo-margins
+module github.com/technical-margins/hugo-margins
 
 go 1.20
 
