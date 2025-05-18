@@ -12,7 +12,7 @@ title: Hugo Margins
 
 Ce site représente à la fois un terrain d'expérimentation et un exemple pratique. Il me permet d'explorer la structure de contenu spécifique à Hugo, ses mécanismes de personnalisation, et l'intégration de composants complexes dans un environnement de documentation technique.
 
-Le site est organisé en plusieurs sections principales : [Portfolio](./portfolio/), [Blog](./blog/) et [À propos](./about/). Il propose également une expérience multilingue (français, [anglais](../) et [chinois](../zh/)), bien que la section Portfolio ne soit actuellement disponible qu'en français et en anglais. À noter que le sélecteur de langue n'est pas accessible en mode mobile en raison d'une limitation connue du thème Docsy.
+Le site est organisé en plusieurs sections principales : [Portfolio](./portfolio/), [Blog](./blog/) et [À propos](./about/). Il propose également une expérience multilingue (français, [anglais](../) et [chinois](../zh/)), bien que la section Portfolio ne soit actuellement disponible qu'en français et en anglais. À noter que le sélecteur de langue n'est pas accessible depuis certaines pages en mode mobile en raison d'une limitation connue du thème Docsy.
 
 {{% /blocks/lead %}}
 
